@@ -53515,7 +53515,7 @@ g=P.aK([null,0],t.st,t.S)
 return new M.tm(new E.pe(i,new E.H_(j,j,1/0,56),j),new B.A2(new G.Vz(!0,!0,!0,l,g),j,C.t,!1,j,!0,C.jX,!1,j,14,C.aJ,C.Bm,j,C.ab,j),j)},
 np:function(a){var s=this.XI(C.d.d4(this.W0(a)*0.8)),r=s>8?"M":"S"
 if(s>20)r="L"
-if(s>40)r="XL"
+if(s===40)r="XL"
 if(s===100)r="XXL"
 return"Story Pointer: "+C.h.i(s)+", T-Shirt Size: "+r},
 W0:function(a){var s,r,q,p
