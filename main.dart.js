@@ -53514,8 +53514,10 @@ l=H.b([new Z.mT(new F.ZF(),h,j,t.e3),f,e,d,s,r,q,p,o,n,m,R.Ct(C.al,5,C.bC,J.bR(g
 g=P.aK([null,0],t.st,t.S)
 return new M.tm(new E.pe(i,new E.H_(j,j,1/0,56),j),new B.A2(new G.Vz(!0,!0,!0,l,g),j,C.t,!1,j,!0,C.jX,!1,j,14,C.aJ,C.Bm,j,C.ab,j),j)},
 np:function(a){var s=this.XI(C.d.d4(this.W0(a)*0.8)),r=s>8?"M":"S"
-if(s>40)r="L"
-return"Story Pointer: "+C.h.i(s)+", Maglietta: "+r},
+if(s>20)r="L"
+if(s>40)r="XL"
+if(s===100)r="XXL"
+return"Story Pointer: "+C.h.i(s)+", T-Shirt Size: "+r},
 W0:function(a){var s,r,q,p
 for(s=0,r=0;r<a.length;++r)if(!J.e(a[r],0))for(q=0;p=a.length,q<p;){++q
 if(r<p-q&&!J.e(a[r+q],0))s+=Math.abs(a[r]*a[r+q]*Math.sin(6.283185307179586/a.length*q)/2)}return s},
